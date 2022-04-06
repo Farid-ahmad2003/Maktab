@@ -1,0 +1,35 @@
+html{
+                font-family: sans-serif;
+                text-align: center;
+            }.email, .password, .name{
+                outline: none;
+                width: 70%;
+                margin-bottom: 5px;
+                border: 1px solid wheat;
+                height: 40px;
+                border-radius: 10px;
+            }.button{
+                outline: none;
+                width: 70%;
+                height: 30px;
+                border: none;
+                border-radius: 10px;
+                color: white;
+                background-color: black;
+                transition: 0.4s;
+            }.button:hover{
+                color: black;
+                background-color: aqua;
+            }.email:focus, .password:focus, .name:focus{
+                background-color: #e3e3e3;
+            }form p{
+                font-size: 15px;
+                margin: 5px;
+            }a{
+                text-decoration: none;
+                color: black;
+                transition: 0.4s;
+                font-size: 12px;
+            }a:hover{
+                font-size: 15px;
+            }

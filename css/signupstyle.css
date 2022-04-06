@@ -1,0 +1,32 @@
+html{
+    font-family: sans-serif;
+    text-align: center;
+}.email,.name,.password{
+    width: 80%;
+    height: 30px;
+    border: 1px solid black;
+    margin: 4px;
+    transition: 0.4s;
+    border-radius: 5px;
+}.email:focus,.password:focus,.name:focus{
+    background-color: black;
+    color: white;
+}.button{
+    transition: 0.4s;
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 4px;
+    height: 30px;
+    cursor: pointer;
+}.button:hover{
+    background-color: black;
+    color: white;
+}a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    transition: 0.4s;
+}a:hover{
+    font-size: 17px;
+}
